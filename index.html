@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/d4ff09e9a2.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="icon" href="./flag.png">
+  <title>Log In </title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      font-family: 'Rajdhani', sans-serif;
+    }
+
+    body {
+      background: url(./background-7.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-repeat: no-repeat;
+      
+    }
+ 
+    .log-in {
+      justify-content: center;
+      max-width: 1140px;
+      margin: 0 auto;
+    }
+
+    .navigation {
+      display: flex;
+      justify-content: space-between;
+      gap: 100px;
+    }
+
+    #flag {
+      color: rgb(223, 164, 164);
+    }
+
+    #search {
+      color: rgb(223, 164, 164);
+    }
+
+    #logout {
+      color: rgb(223, 164, 164);
+    }
+
+    .navigation a {
+      color: rgb(46, 46, 46);
+      text-decoration: none;
+      padding: 20px;
+      margin: 10px;
+      font-size: 20px;
+      font-weight: 400px;
+    }
+    .body-figure{
+      display: flex;
+      justify-content:space-between;
+      max-width: 1140px;
+      margin: 0 auto;
+      padding-top: 200px;
+    }
+    /* .log-in-form {
+
+      padding-top: 100px;
+      max-width: 1140px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: right;
+    } */
+    .container{
+      border: none;
+      background: rgb(223, 164, 164);
+      border-radius: 15px;
+      text-align: center;
+      padding: 30px;
+    }
+    .title{
+      font-size: 40px;
+      margin-bottom: 15px;
+      font-weight: 700;
+      color: rgb(238, 247, 255);
+      font-size: 40px;
+      font-weight: 700px;
+      margin-bottom: 5px;
+      
+    }
+    .description{
+      color: rgb(238, 247, 255);
+      margin-bottom: 10px;
+      font-weight: 500;
+      font-size: 22px;
+    }
+    .form {
+      justify-content: center;
+      display: flex;
+      flex-direction: column;
+      /* width: 15%; */
+    }
+
+    .form input[type="text"],
+    input[type="password"] {
+      font-size: 18px;
+      font-weight: 600;
+      padding: 3px 10px;
+      margin: 10px;
+      text-align: center;
+      border-radius: 8px;
+      border: .5px solid rgb(223, 164, 164);
+      background: none;
+    }
+
+    .form input[type="submit"] {
+      color: rgb(238, 247, 255);
+      font-size: 18px;
+      font-weight: 600;
+      padding: 3px 10px;
+      margin: 10px;
+      text-align: center;
+      border-radius: 8px;
+      border: none;
+      background: rgb(223, 164, 164);
+    }
+    .info{
+      color: rgb(46, 46, 46);
+      text-align: center;
+      margin-top: 150px;
+      font-size: 18px;
+      font-weight: 600;
+    }
+  </style>
+</head>
+
+<body>
+  <section class="log-in">
+    <nav class="navigation">
+      <span>
+        <a href="" id="flag"><i class="fa-solid fa-font-awesome"></i></a>
+        <a href="">Start</a>
+        <a href="" id="search"><i class="fa-solid fa-magnifying-glass"></i></a>
+        <a href="">Icons</a>
+        <a href="">Docs</a>
+        <a href="">Plans</a>
+        <a href="">Support</a>
+        <a href="">Blog</a>
+      </span>
+      <span>
+        <a href="" id="logout"><i class="fa-solid fa-right-from-bracket"></i></a>
+      </span>
+    </nav>
+  </section>
+  <section class="body-figure">
+    <div class="container">
+      <h1 class="title">
+        Let's Get Everything In <br> One Place
+      </h1>
+      <p class="description">
+        Lorem ipsum dolor sit amet, consectetur <br> adipisicing elit. Dolor, blanditiis <br> cum laborum molestiae excepturi ducimus.
+      </p>
+    </div>
+    <div class="log-in-form">
+      <form class="form">
+        <input type="text" name="" id="" placeholder="username" required>
+        <input type="password" name="" id="" placeholder="password" required>
+        <input type="submit" value="log-in">
+      </form>
+      <p class="info">copyright © 2023 </p>
+    </div>
+  </section>
+</body>
+
+</html>
